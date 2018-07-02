@@ -1,6 +1,6 @@
 {
   "name": "emoti-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An awesome emoti generator module",
   "main": "index.js",
   "scripts": {
