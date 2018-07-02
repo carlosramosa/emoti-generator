@@ -2,7 +2,7 @@
 
 
 
-const GenerarMapas = () => {
+const GenerateMaps = () => {
 
     const emotis = require('./emotis.json');
 
