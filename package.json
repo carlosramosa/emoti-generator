@@ -1,0 +1,17 @@
+{
+  "name": "emoti-generator",
+  "version": "1.0.0",
+  "description": "An awesome emoti generator module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "emoti"
+  ],
+  "author": "Ramosar",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.0.1"
+  }
+}
