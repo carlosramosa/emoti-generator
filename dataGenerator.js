@@ -9,14 +9,20 @@ const GenerateMaps = () => {
     const mapDescription = new Map();
     const mapName = new Map();
 
-    emotis.forEach(({name, description = name, code, emoti}) => {
-        mapDescription.set(description, { name, description, code, emoti });
-        mapName.set(name, { name, description, code, emoti });
-    })
+    emotis.forEach(({name, description, code, emoti}) => {
+
+        const descriptionValue = mapDescription.get(description) || [];
+        const nameValue = mapName.get(name) || [];
+        descriptionValue.push({ name, description, code, emoti });
+        nameValue.push({ name, description, code, emoti });
+
+        mapDescription.set(description, descriptionValue);
+        mapName.set(name, nameValue);
+    });
     return {
         mapDescription
         , mapName
-    }
+    };
 }
 
 module.exports = {
