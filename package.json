@@ -8,10 +8,15 @@
   },
   "keywords": [
     "emoti"
+    , "emoji"
   ],
   "author": "Ramosar",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "eslint": "^5.0.1"
+  }
+  , "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosramosa/emoti-generator.git"
   }
 }

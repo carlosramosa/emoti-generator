@@ -1,8 +1,8 @@
 'use strict';
 
-const { getEmoti: GetEmoti } = require('./emotiManager');
+const { getEmoti: GetEmoti } = require('./src/emotiManager');
 
-const  { generateMaps: GenerateMaps } = require('./dataGenerator');
+const  { generateMaps: GenerateMaps } = require('./src/dataGenerator');
 
 const { mapDescription, mapName } = GenerateMaps();
 

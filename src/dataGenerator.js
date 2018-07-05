@@ -4,7 +4,7 @@
 
 const GenerateMaps = () => {
 
-    const emotis = require('./emotis.json');
+    const emotis = require('../data/emotis.json');
 
     const mapDescription = new Map();
     const mapName = new Map();
